@@ -16,7 +16,7 @@ module.exports = function (grunt) {
         self.files.forEach(function (f) {
             cnt += f.src.length;
             f.src.forEach(function (filePath) {
-                var data = fs.readFileSync(path.join(__dirname, '..', filePath), { encoding: 'utf8' }),
+                var data = fs.readFileSync(filePath, { encoding: 'utf8' }),
                     words = extractor.uniqueWords(data),
                     hyphens = extractor.uniqueHyphens(words.join(' '));
 
