@@ -1,6 +1,6 @@
 {
   "name": "grunt-words-and-hyphens",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Extracts unique words and hyphens from a text file stripping punctuation on the way and writes results into a json file (e.g. src_file.txt.words_and_hyphens.json)",
   "author": {
     "name": "Boris Diakur",
@@ -27,7 +27,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "words-and-hyphens": "0.0.2"
+    "words-and-hyphens": "0.0.3"
   },
   "devDependencies": {
     "coveralls": "~2.11.0",

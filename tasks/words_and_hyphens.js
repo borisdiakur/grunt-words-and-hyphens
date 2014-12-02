@@ -2,8 +2,7 @@
 
 module.exports = function (grunt) {
 
-    var fs = require('fs'),
-        path = require('path');
+    var fs = require('fs');
 
     grunt.registerMultiTask('words_and_hyphens', 'Extracts unique words and hyphens from a text file stripping punctuation on the way and writes results into a json file (e.g. src_file.txt.words_and_hyphens.json)', function () {
 
