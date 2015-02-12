@@ -8,12 +8,9 @@ module.exports = function (grunt) {
 
         var options = this.options({}),
             pattern = require(options.pattern),
-            extractor = require('words-and-hyphens')(pattern),
-            cnt = 0,
-            self = this;
+            extractor = require('words-and-hyphens')(pattern);
 
-        self.files.forEach(function (f) {
-            cnt += f.src.length;
+        this.files.forEach(function (f) {
             f.src.forEach(function (filePath) {
                 var data = fs.readFileSync(filePath, { encoding: 'utf8' }),
                     words = extractor.uniqueWords(data),
