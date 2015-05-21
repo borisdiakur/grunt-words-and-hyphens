@@ -3,7 +3,7 @@
 > Extracts unique words and hyphens from a text file stripping punctuation on the way and writes results into a json file (e.g. src_file.txt.words_and_hyphens.json)
 
 [![Build Status](https://api.travis-ci.org/borisdiakur/grunt-words-and-hyphens.png?branch=master)](https://travis-ci.org/borisdiakur/grunt-words-and-hyphens)
-[![Coverage Status](https://img.shields.io/coveralls/borisdiakur/grunt-words-and-hyphens.svg)](https://coveralls.io/r/borisdiakur/grunt-words-and-hyphens)
+[![Coverage Status](https://coveralls.io/repos/borisdiakur/grunt-words-and-hyphens/badge.svg?branch=master)](https://coveralls.io/r/borisdiakur/grunt-words-and-hyphens?branch=master)
 [![Dependency Status](https://gemnasium.com/borisdiakur/grunt-words-and-hyphens.svg)](https://gemnasium.com/borisdiakur/grunt-words-and-hyphens)
 
 [![NPM](https://nodei.co/npm/grunt-words-and-hyphens.png?downloads=true)](https://nodei.co/npm/grunt-words-and-hyphens/)
