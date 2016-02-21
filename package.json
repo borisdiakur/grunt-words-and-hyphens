@@ -27,7 +27,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "words-and-hyphens": "0.0.4"
+    "words-and-hyphens": "0.0.5"
   },
   "devDependencies": {
     "coveralls": "^2.11.0",
