@@ -42,7 +42,7 @@
     "mocha-lcov-reporter": "0.0.2"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": ">=0.4.0"
   },
   "private": false,
   "main": "tasks/words-and-hyphens.js",
